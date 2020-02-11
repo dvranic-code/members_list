@@ -84,9 +84,9 @@ nav .dvc-btn.active {
 
 .inner-page {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='793.004' height='186.055' viewBox='0 0 793.004 186.055'%3E%3Cg id='Group_5' data-name='Group 5' transform='translate(-86.996 -188.923)'%3E%3Cpath id='Path_14' data-name='Path 14' d='M2259.252-1488.916s171.628-55.731,369.877-89.5,423.122-45.574,423.122-45.574-209.243-43.079-407.492-49.871-385.507,22.7-385.507,22.7Z' transform='translate(-2172.251 1863.894)' fill='%23b58f91'/%3E%3Cpath id='Path_15' data-name='Path 15' d='M2260.249-1652.957l0,128.005s158.244-50.528,355.587-75.225,436.97-25.534,436.97-25.534-218.4-43.625-415.744-49.933S2260.249-1652.957,2260.249-1652.957Z' transform='translate(-2173.252 1865.465)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
-  background-size: 90%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: left 2rem;
+  background-position: left 3rem;
 }
 
 h1, h2, h3 {
@@ -209,6 +209,10 @@ p {
   }
 }
 @media (min-width: 768px) {
+  .inner-page {
+    background-position: left 2rem;
+  }
+
   .member-card {
     width: 33.3333%;
   }

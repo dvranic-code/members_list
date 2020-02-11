@@ -24,3 +24,21 @@ function printStyle() {
   document.body.classList.toggle('print');
   document.querySelector('.btn-print').classList.toggle('active');
 }
+
+
+/**
+ * Main app controler
+ * 
+ * from JSON object creates a list
+ */
+var controller = (function() {
+
+  return {
+    init: function() {
+      
+    }
+  };
+
+})();
+
+controller.init();
