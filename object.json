@@ -1,10 +1,12 @@
 {
   "companyLogo": "",
-  "featureImage": "",
+  "featureImage": "https://images.unsplash.com/photo-1498661694102-0a3793edbe74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2793&q=80",
   "headTitle": "Members List",
   "companySubTitle": "With the 3 ideals of Partnership・Passion・Professionalism, the TRES STELLAS chapter is a booming BNI chapter in the heart of Tokyo.",
   "pageTitle": "TRES STELLAS CHAPTER",
-  "introText": "Member of the NE region in Tokyo, we are based in Asakusabashi, a station just by the famed Akihabara shopping distric. We are comprised of 80+ members of all ages and profession groups embodying the professional fabric of Japan. Our members range from restaurants and coworking spaces in the area to legal, beauty, business support services, et all. We have several nationalities with us, and a vibrant Global Business Coordinator Team. Some of our members are shy, but we all love to interact with people from around the world! Give us a hi! and we will forget that we were shy.",
+  "introPicture": "https://images.unsplash.com/photo-1498661694102-0a3793edbe74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2793&q=80",
+  "introTextColOne": "Member of the NE region in Tokyo, we are based in Asakusabashi, a station just by the famed Akihabara shopping distric. We are comprised of 80+ members of all ages and profession groups embodying the professional fabric of Japan. Our members range from restaurants and coworking spaces in the area to legal, beauty, business support services, et all.",
+  "introTextColtwo": "We have several nationalities with us, and a vibrant Global Business Coordinator Team. Some of our members are shy, but we all love to interact with people from around the world! Give us a hi! and we will forget that we were shy.",
   "features": [
     {
       "title": "PARTNERSHIP",
@@ -21,7 +23,7 @@
   ],
   "members": [
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -33,19 +35,19 @@
       "email": "ishikawa@bayside-office.com"
     },
     {
-      "picture": "",
-      "name": "MINPEI ONO",
-      "position": "Certified Human Resources Management Consultant",
-      "extraInfo": "",
-      "strengths": "Taking advantage of 30years of business experience ,we work as a excellent consultant on labor issue.",
-      "refForMe": "Business Owner",
-      "refICanProvide": "Management, lawyers, tax-accountants",
-      "location": "",
-      "phoneNumber": "",
-      "email": ""
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
+      "name": "Romash Bhatt",
+      "position": "Inbound Travel Web Service",
+      "extraInfo": "(Japan)",
+      "strengths": "Inbound travel services(info of travel itineraries / connecting to travel agents) via our interactive web service at travelz.jp (https://www.travelz.jp/en).",
+      "refForMe": "Groups and Businesses travelling to Japan",
+      "refICanProvide": "Liasion with businesses in Japan, travel outbound requests",
+      "location": "CRhymers Co., Ltd.",
+      "phoneNumber": "+81-80-2133-4596",
+      "email": "romash@i-rhymers.com"
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -57,7 +59,7 @@
       "email": ""
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -69,7 +71,7 @@
       "email": ""
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -81,7 +83,7 @@
       "email": ""
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -93,7 +95,7 @@
       "email": ""
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",
@@ -105,7 +107,7 @@
       "email": ""
     },
     {
-      "picture": "",
+      "picture": "https://longwoods-intl.com/sites/default/files/2018-11/placeholder_male1.png",
       "name": "Kazuo Ishikaw",
       "position": "Administrative scrivener",
       "extraInfo": "(Construction industry & Housing business)",

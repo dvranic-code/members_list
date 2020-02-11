@@ -1,5 +1,15 @@
 @media (min-width: 520px) {
 
+  #front-page {
+    .feature-img {
+      height: 360px;
+    }
+    .front-content {
+      margin-top: -55px;
+      padding-top: 60px;
+    }
+  }
+
   .member-card {
     width: 50%;
   }

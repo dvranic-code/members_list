@@ -11,6 +11,7 @@ $darkBlue: #4E6A8E;
 /* GENERAL */
 html {
   font-size: 12px;
+  color: #1d1d1d;
 
 }
 body.member-list {
@@ -100,6 +101,96 @@ nav {
   box-sizing: content-box;
 }
 
+#front-page {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .front-logo {
+    margin-top: -55px;
+    margin-left: -45px;
+    padding: 55px 45px 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='623.784' height='171.907' viewBox='0 0 623.784 171.907'%3E%3Cg id='Group_4' data-name='Group 4' transform='translate(-38.592 -609.275)'%3E%3Cpath id='Path_12' data-name='Path 12' d='M2382.131-2013s163.011,7.229,331.1,62.2,292.682,109.712,292.682,109.712V-2013Z' transform='translate(-2343.539 2622.275)' fill='%23b58f91'/%3E%3Cpath id='Path_13' data-name='Path 13' d='M2435.437-2013s88.03,7.3,225.112,40.355,267.423,78.788,267.423,78.788V-2013Z' transform='translate(-2265.595 2622.275)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: calc(100% + 90px);
+    
+    img {
+      max-height: 120px;
+      max-width: 100%;
+      width: auto;
+      // height: auto;
+    }
+  }
+
+  .feature-img {
+    background-image: url('../img/team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: calc(100% + 90px);
+    margin-left: -45px;
+  }
+
+  .front-content {
+    margin-top: -35px;
+    margin-left: -45px;
+    width: calc(100% + 90px);
+    padding: 45px 45px 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='792.557' height='332.214' viewBox='0 0 792.557 332.214'%3E%3Cg id='Group_6' data-name='Group 6' transform='translate(-87.001 -146.608)'%3E%3Cpath id='Path_14' data-name='Path 14' d='M2259.252-1385.072s152.4-112.674,350.646-165.3,440.152-77.848,440.152-77.848-207.041-34.488-405.291-45.072-385.507,35.383-385.507,35.383Z' transform='translate(-2172.251 1863.894)' fill='%23b58f91'/%3E%3Cpath id='Path_15' data-name='Path 15' d='M2260.249-1635.5l0,222.747s158.243-87.927,355.585-130.9,436.967-44.432,436.967-44.432-218.4-75.914-415.741-86.89S2260.249-1635.5,2260.249-1635.5Z' transform='translate(-2173.248 1823.15)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    .page-title {
+      margin-bottom: 1rem;
+    }
+    #company-sub-title {
+      font-size: 1.25rem;
+      margin-left: -14px;
+      margin-bottom: 2rem;
+      width: calc(100% + 28px);
+      padding: 6px 14px;
+      background: rgba(#fff, 0.4);
+    }
+  }
+}
+
+.row {
+  margin-left: -14px;
+  margin-bottom: 1rem;
+  width: calc(100% + 28px);
+  background: rgba(#fff, 0.4);
+
+   &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.col {
+  float: left;
+  width: 100%;
+  padding: 6px 14px;
+  img {
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+.first-letter::first-letter {
+  color: $darkBlue;
+  font-size: 200%;
+  line-height: 1;
+  font-weight: bold;
+}
+
 .inner-page {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='793.004' height='186.055' viewBox='0 0 793.004 186.055'%3E%3Cg id='Group_5' data-name='Group 5' transform='translate(-86.996 -188.923)'%3E%3Cpath id='Path_14' data-name='Path 14' d='M2259.252-1488.916s171.628-55.731,369.877-89.5,423.122-45.574,423.122-45.574-209.243-43.079-407.492-49.871-385.507,22.7-385.507,22.7Z' transform='translate(-2172.251 1863.894)' fill='%23b58f91'/%3E%3Cpath id='Path_15' data-name='Path 15' d='M2260.249-1652.957l0,128.005s158.244-50.528,355.587-75.225,436.97-25.534,436.97-25.534-218.4-43.625-415.744-49.933S2260.249-1652.957,2260.249-1652.957Z' transform='translate(-2173.252 1865.465)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
   background-size: 100%;
@@ -116,6 +207,7 @@ h1, h2, h3 {
 h1 {
   margin-bottom: 3rem;
   font-size: 2.25rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -160,7 +252,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.member-header {
+.member-header, .feat {
   position: relative;
   padding-left: 14px;
   color: $darkBlue;
@@ -187,6 +279,16 @@ p {
     background-position: left top;
     background-repeat: no-repeat;
   }
+
+  span {
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+}
+
+.feat {
+  line-height: 40px;
+  vertical-align: middle;
 }
 
 .member-description {

@@ -5,7 +5,32 @@ body.print {
     height: 1013px;
   }
 
-  .member-card {
+  .inner-page {
+    background-position: left 2rem;
+  }
+
+  .member-card, .col {
     width: 33.33333%;
   }
+
+  .col {
+    img {
+      width: calc(100% + 45px);
+      margin: -6px 0 0 -45px;
+    }
+  }
+
+  #front-page {
+    .front-logo {
+      background-size: 75%;
+    }
+    .feature-img {
+      height: 420px;
+    }
+    .front-content {
+      margin-top: -75px;
+      padding-top: 80px;
+    }
+  }
+
 }
