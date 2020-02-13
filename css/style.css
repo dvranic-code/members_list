@@ -218,7 +218,6 @@ p {
   width: 100%;
   margin: 0 auto 0.75rem;
   height: 150px;
-  background-image: url("../img/member.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -325,6 +324,7 @@ p {
 
   #front-page .front-logo {
     background-size: 75%;
+    min-height: 165px;
   }
   #front-page .feature-img {
     height: 420px;
@@ -350,6 +350,7 @@ body.print .col img {
 }
 body.print #front-page .front-logo {
   background-size: 75%;
+  min-height: 165px;
 }
 body.print #front-page .feature-img {
   height: 420px;
