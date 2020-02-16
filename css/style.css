@@ -83,10 +83,10 @@ nav .dvc-btn.active {
   box-sizing: content-box;
 }
 
-#front-page h1 {
+#front-page h1, #back-page h1 {
   font-size: 3.5rem;
 }
-#front-page .front-logo {
+#front-page .front-logo, #back-page .front-logo {
   margin-top: -55px;
   margin-left: -45px;
   padding: 55px 45px 2rem;
@@ -96,12 +96,12 @@ nav .dvc-btn.active {
   background-position: right top;
   width: calc(100% + 90px);
 }
-#front-page .front-logo img {
+#front-page .front-logo img, #back-page .front-logo img {
   max-height: 120px;
   max-width: 100%;
   width: auto;
 }
-#front-page .feature-img {
+#front-page .feature-img, #back-page .feature-img {
   background-image: url("../img/team.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ nav .dvc-btn.active {
   width: calc(100% + 90px);
   margin-left: -45px;
 }
-#front-page .front-content {
+#front-page .front-content, #back-page .front-content {
   margin-top: -35px;
   margin-left: -45px;
   width: calc(100% + 90px);
@@ -120,10 +120,10 @@ nav .dvc-btn.active {
   background-repeat: no-repeat;
   background-position: left top;
 }
-#front-page .front-content .page-title {
+#front-page .front-content .page-title, #back-page .front-content .page-title {
   margin-bottom: 1rem;
 }
-#front-page .front-content #company-sub-title {
+#front-page .front-content #company-sub-title, #back-page .front-content #company-sub-title {
   font-size: 1.25rem;
   margin-left: -14px;
   margin-bottom: 2rem;
@@ -132,7 +132,36 @@ nav .dvc-btn.active {
   background: rgba(255, 255, 255, 0.4);
 }
 
+#back-page h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem !important;
+}
+#back-page p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+#back-page .front-content {
+  background-image: none;
+  position: relative;
+}
+#back-page .front-content:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='792.557' height='332.214' viewBox='0 0 792.557 332.214'%3E%3Cg id='Group_6' data-name='Group 6' transform='translate(-87.001 -146.608)'%3E%3Cpath id='Path_14' data-name='Path 14' d='M2259.252-1385.072s152.4-112.674,350.646-165.3,440.152-77.848,440.152-77.848-207.041-34.488-405.291-45.072-385.507,35.383-385.507,35.383Z' transform='translate(-2172.251 1863.894)' fill='%23b58f91'/%3E%3Cpath id='Path_15' data-name='Path 15' d='M2260.249-1635.5l0,222.747s158.243-87.927,355.585-130.9,436.967-44.432,436.967-44.432-218.4-75.914-415.741-86.89S2260.249-1635.5,2260.249-1635.5Z' transform='translate(-2173.248 1823.15)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
 .row {
+  position: relative;
   margin-left: -14px;
   margin-bottom: 1rem;
   width: calc(100% + 28px);
@@ -147,12 +176,12 @@ nav .dvc-btn.active {
   margin-bottom: 0;
 }
 
-.col {
+.col, .col-4, .col-8 {
   float: left;
   width: 100%;
   padding: 6px 14px;
 }
-.col img {
+.col img, .col-4 img, .col-8 img {
   width: 100%;
   height: auto;
 }
@@ -295,10 +324,10 @@ p {
 }
 
 @media (min-width: 520px) {
-  #front-page .feature-img {
+  #front-page .feature-img, #back-page .feature-img {
     height: 360px;
   }
-  #front-page .front-content {
+  #front-page .front-content, #back-page .front-content {
     margin-top: -55px;
     padding-top: 60px;
   }
@@ -313,8 +342,12 @@ p {
   }
 
   .member-card,
-.col {
+.col, .col-4 {
     width: 33.3333%;
+  }
+
+  .col-8 {
+    width: 66.6666%;
   }
 
   .col img {
@@ -322,14 +355,14 @@ p {
     margin: -6px 0 0 -45px;
   }
 
-  #front-page .front-logo {
+  #front-page .front-logo, #back-page .front-logo {
     background-size: 75%;
     min-height: 165px;
   }
-  #front-page .feature-img {
+  #front-page .feature-img, #back-page .feature-img {
     height: 420px;
   }
-  #front-page .front-content {
+  #front-page .front-content, #back-page .front-content {
     margin-top: -75px;
     padding-top: 80px;
   }
@@ -341,21 +374,27 @@ body.print .page {
 body.print .inner-page {
   background-position: left 2rem;
 }
-body.print .member-card, body.print .col {
+body.print .member-card {
   width: 33.33333%;
+}
+body.print .col, body.print .col-4 {
+  width: 33.3333%;
+}
+body.print .col-8 {
+  width: 66.6666%;
 }
 body.print .col img {
   width: calc(100% + 45px);
   margin: -6px 0 0 -45px;
 }
-body.print #front-page .front-logo {
+body.print #front-page .front-logo, body.print #back-page .front-logo {
   background-size: 75%;
   min-height: 165px;
 }
-body.print #front-page .feature-img {
+body.print #front-page .feature-img, body.print #back-page .feature-img {
   height: 420px;
 }
-body.print #front-page .front-content {
+body.print #front-page .front-content, body.print #back-page .front-content {
   margin-top: -75px;
   padding-top: 80px;
 }

@@ -136,7 +136,31 @@ var pagesController = (function() {
 
       });
 
+    },
+
+    addBackPages: function(obj) {
+
+      var html, newHtml, element;
+
+      //HTML string with placeholder
+      html = '<section class="page" id="back-page"><div class="front-logo"><img src="%companyLogo%" alt=""></div><div class="feature-img" style="background-image: url(\'%featureImage%\')"></div><div class="front-content"><h2 class="page-title">Access Details</h2><div class="row"><div class="col-4"><p>%accessDetails%</p></div><div class="col-8"><img src="%map%"></div></div></div></section>';
+
+      // replace placeholders with data from object
+      var companyLogo = obj.companyLogo ? obj.companyLogo : 'img/logoipsum.png';
+      newHtml = html.replace('%companyLogo%', companyLogo);
+
+      var featureImage = obj.featureImage ? obj.featureImage : 'img/team.jpg';
+      newHtml = newHtml.replace('%featureImage%', featureImage);
+      newHtml = newHtml.replace('%accessDetails%', obj.accessDetails);
+      newHtml = newHtml.replace('%map%', obj.map);
+
+      element = DOMstrings.pagesContainer;
+
+      //attache newHTML to element
+      document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
+
     }
+
   };
 
 })();
@@ -172,6 +196,8 @@ var controller = (function(pageCtrl) {
         pageCtrl.addFrontPage(x);
 
         pageCtrl.addInnerPages(x);
+
+        pageCtrl.addBackPages(x);
         
       });
       

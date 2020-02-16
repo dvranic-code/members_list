@@ -5,8 +5,11 @@
   }
 
   .member-card,
-  .col {
+  .col, .col-4 {
     width: 33.3333%;
+  }
+  .col-8 {
+    width: 66.6666%;
   }
 
   .col {
@@ -16,7 +19,7 @@
     }
   }
 
-  #front-page {
+  #front-page, #back-page {
     .front-logo {
       background-size: 75%;
       min-height: 165px;

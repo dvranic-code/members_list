@@ -9,8 +9,15 @@ body.print {
     background-position: left 2rem;
   }
 
-  .member-card, .col {
+  .member-card {
     width: 33.33333%;
+  }
+
+  .col, .col-4 {
+    width: 33.3333%;
+  }
+  .col-8 {
+    width: 66.6666%;
   }
 
   .col {
@@ -20,7 +27,7 @@ body.print {
     }
   }
 
-  #front-page {
+  #front-page, #back-page {
     .front-logo {
       background-size: 75%;
       min-height: 165px;
