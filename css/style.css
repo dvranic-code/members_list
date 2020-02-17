@@ -37,10 +37,11 @@ nav.show {
 nav .icon,
 nav .dvc-btn {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  background: #ffe40a;
+  background: #792a40;
   display: block;
   cursor: pointer;
   font-size: 14px;
+  color: #fff;
 }
 nav .icon {
   position: absolute;
@@ -48,12 +49,13 @@ nav .icon {
   width: 42px;
   left: 6px;
   border-radius: 50%;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='31.388px' height='31.388px' viewBox='0 0 31.388 31.388' style='enable-background:new 0 0 31.388 31.388;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M8.401,19.99l-1.215,6.398h17.017l-1.215-6.398H8.401z M8.393,25.388l0.835-4.398h12.93l0.836,4.398H8.393z'/%3E%3Cpath d='M8.401,6.939h14.587v1.503h1.822V7.43C24.811,6.094,23.717,5,22.38,5H9.008C7.671,5,6.577,6.094,6.577,7.43v1.012H8.4 L8.401,6.939L8.401,6.939z'/%3E%3Cpath d='M28.457,9.158H2.931C1.315,9.158,0,10.472,0,12.089v7.294C0,21,1.315,22.314,2.931,22.314h3.155l0.868-3.039h17.48 l0.868,3.039h3.155c1.615,0,2.931-1.313,2.931-2.931v-7.294C31.388,10.472,30.072,9.158,28.457,9.158z M30.388,19.382 c0,1.064-0.866,1.932-1.931,1.932h-2.401l-0.868-3.039H6.2l-0.868,3.039H2.931C1.866,21.314,1,20.447,1,19.382v-7.294 c0-1.064,0.866-1.931,1.931-1.931h25.526c1.064,0,1.931,0.866,1.931,1.931V19.382z'/%3E%3Ccircle cx='25.053' cy='12.57' r='0.912'/%3E%3Ccircle cx='27.686' cy='12.57' r='0.708'/%3E%3Cpath d='M21.193,23.732h-11c-0.276,0-0.5,0.225-0.5,0.5c0,0.276,0.224,0.5,0.5,0.5h11c0.276,0,0.5-0.224,0.5-0.5 C21.693,23.957,21.47,23.732,21.193,23.732z'/%3E%3Cpath d='M21.193,21.888h-11c-0.276,0-0.5,0.225-0.5,0.5s0.224,0.5,0.5,0.5h11c0.276,0,0.5-0.225,0.5-0.5 S21.47,21.888,21.193,21.888z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='452.56' height='487.38' viewBox='0 0 452.56 487.38'%3E%3Cg id='print-button-svgrepo-com' transform='translate(-17.41)'%3E%3Cg id='Group_7' data-name='Group 7'%3E%3Cpath id='Path_17' data-name='Path 17' d='M400.1,100.918h-9.871V11.646A11.647,11.647,0,0,0,378.582,0H108.8A11.644,11.644,0,0,0,97.158,11.646v89.271H87.281A69.953,69.953,0,0,0,17.41,170.788V315.046a69.951,69.951,0,0,0,69.871,69.87h9.877v90.818A11.643,11.643,0,0,0,108.8,487.38H378.582a11.647,11.647,0,0,0,11.646-11.646V384.916H400.1a69.951,69.951,0,0,0,69.871-69.87V170.789A69.951,69.951,0,0,0,400.1,100.918ZM120.449,23.291H366.938v77.627H120.449Zm246.489,440.8H120.449V320.465H366.938Zm79.744-149.046A46.632,46.632,0,0,1,400.1,361.627h-9.871V320.465h25.186a11.645,11.645,0,0,0,0-23.291H75.421a11.645,11.645,0,1,0,0,23.291H97.158v41.162H87.281A46.634,46.634,0,0,1,40.7,315.046V170.789a46.633,46.633,0,0,1,46.581-46.58H400.1a46.633,46.633,0,0,1,46.58,46.58V315.046h0Z' fill='%23fff'/%3E%3Cpath id='Path_18' data-name='Path 18' d='M378.582,170.646a15.893,15.893,0,1,0,15.895,15.893A15.9,15.9,0,0,0,378.582,170.646Z' fill='%23fff'/%3E%3Cpath id='Path_19' data-name='Path 19' d='M147.618,360.734H339.764a11.645,11.645,0,1,0,0-23.291H147.618a11.645,11.645,0,1,0,0,23.291Z' fill='%23fff'/%3E%3Cpath id='Path_20' data-name='Path 20' d='M147.618,403.926H339.764a11.645,11.645,0,1,0,0-23.291H147.618a11.645,11.645,0,1,0,0,23.291Z' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 24px;
 }
 nav .icon.active {
-  background-color: #D0DDEA;
+  background-color: #4e1127;
 }
 nav .dvc-btn {
   height: 42px;
@@ -67,8 +69,7 @@ nav .dvc-btn:first-child {
   margin-bottom: 6px;
 }
 nav .dvc-btn.active {
-  color: #4E6A8E;
-  background: #D0DDEA;
+  background: #4e1127;
 }
 
 .page {
